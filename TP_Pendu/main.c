@@ -10,13 +10,13 @@ int main ()
     {
         char Mot[TAILLE];
         char Lettre;
-        int vie = 10, cpt = 0 , i = 0, j=0;
+        int vie = 10, i = 0;
         int estPareil = 0, aTrouverUneLettre = 0;
 
 
         do{
             printf("Entrer votre mot: ");// saisie du MOT
-            scanf("%s",&Mot);
+            scanf("%s",Mot);
             printf("le mot fait %i lettre\n", strlen(Mot));
         }while (strlen(Mot) > TAILLE || strlen(Mot) < 3);
 
